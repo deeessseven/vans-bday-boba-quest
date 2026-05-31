@@ -3,7 +3,7 @@ import { AvatarStore } from '../data/AvatarStore.js';
 import { BackgroundStore } from '../data/BackgroundStore.js';
 import { MusicSystem } from '../audio/MusicSystem.js';
 import BUNDLED_ART from 'virtual:custom-art';
-import { GT, applyText } from '../data/GameText.js';
+import { GT, applyText, resolveStory } from '../data/GameText.js';
 import { CHARACTER_DEFS } from '../data/characters.js';
 import { ENEMY_DEFS } from '../data/enemies.js';
 import { SPELL_DEFS, ENEMY_ACTIONS } from '../data/spells.js';
@@ -89,7 +89,7 @@ export class BootScene extends Phaser.Scene {
     // Apply gametext.txt overrides (if the file loaded; 404 is silently ignored)
     const rawGT = this.cache.text.get('gametext');
     if (rawGT) applyText(rawGT);
-    document.title = GT.gameTitle;
+    document.title = resolveStory(GT.gameTitle);
 
     // Patch data DEFs so all scenes read the configured names at runtime
     CHARACTER_DEFS.hero1Role.name  = GT.hero1Name;

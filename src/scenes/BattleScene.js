@@ -70,19 +70,19 @@ export class BattleScene extends Phaser.Scene {
       () => {
         if (this.zone === 'boss1') {
           this.showMessage(
-            `${this.enemies[0].name}: ${GT.boss1Intro}`,
+            `${this.enemies[0].name}: ${resolveStory(GT.boss1Intro, GameState.party)}`,
             4000,
             () => this._triggerBossAura(() => this.startTurn())
           );
         } else if (this.zone === 'boss2') {
           this.showMessage(
-            `${this.enemies[0].name}: ${GT.boss2Intro}`,
+            `${this.enemies[0].name}: ${resolveStory(GT.boss2Intro, GameState.party)}`,
             4000,
             () => this._triggerBossAura(() => this.startTurn())
           );
         } else if (this.zone === 'boss3') {
           this.showMessage(
-            `${this.enemies[0].name}: ${GT.boss3Intro}`,
+            `${this.enemies[0].name}: ${resolveStory(GT.boss3Intro, GameState.party)}`,
             4500,
             () => this._triggerBossAura(() => this.startTurn())
           );

@@ -2,7 +2,7 @@ import Phaser from 'phaser';
 import { GameState } from '../GameState.js';
 import { MusicSystem } from '../audio/MusicSystem.js';
 import { BackgroundStore } from '../data/BackgroundStore.js';
-import { GT } from '../data/GameText.js';
+import { GT, resolveStory } from '../data/GameText.js';
 
 export class TitleScene extends Phaser.Scene {
   constructor() { super('TitleScene'); }
@@ -56,7 +56,7 @@ export class TitleScene extends Phaser.Scene {
     });
 
     // Title text — split on first space so "Generic Quest" → "GENERIC" / "QUEST"
-    const titleWords = GT.gameTitle.split(' ');
+    const titleWords = resolveStory(GT.gameTitle).split(' ');
     const titleLine1 = titleWords[0].toUpperCase();
     const titleLine2 = titleWords.slice(1).join(' ').toUpperCase();
 
@@ -83,7 +83,7 @@ export class TitleScene extends Phaser.Scene {
       if (t2.width > maxTitleW) t2.setScale(maxTitleW / t2.width);
     }
 
-    this.add.text(width / 2, height * 0.53 + 150, `~ ${GT.gameTitle} ~`, {
+    this.add.text(width / 2, height * 0.53 + 150, `~ ${resolveStory(GT.gameTitle)} ~`, {
       fontFamily: 'serif',
       fontSize: '28px',
       color: '#8899bb',
@@ -100,7 +100,7 @@ export class TitleScene extends Phaser.Scene {
     }
 
     // Footer
-    this.add.text(width / 2, height - 16, `© 2026 ${GT.gameTitle}`, {
+    this.add.text(width / 2, height - 16, `© 2026 ${resolveStory(GT.gameTitle)}`, {
       fontSize: '22px', color: '#88bbff', fontFamily: 'monospace'
     }).setOrigin(0.5);
 
