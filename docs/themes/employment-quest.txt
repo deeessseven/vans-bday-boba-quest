@@ -1,0 +1,129 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# gametext.txt — Employment Quest configurable names
+# Edit any value to the right of = to customise your game.
+# Lines starting with # are comments and are ignored.
+# Do NOT change the keys (left side of =).
+# ─────────────────────────────────────────────────────────────────────────────
+
+# ── Game Title ───────────────────────────────────────────────────────────────
+gameTitle = Employment Quest
+
+# ── Hero Names ───────────────────────────────────────────────────────────────
+hero1Name = Sam
+hero2Name = Riley
+hero3Name = Morgan
+
+# ── Hero Classes ─────────────────────────────────────────────────────────────
+hero1Class = Blue Collar
+hero2Class = Pink Collar
+hero3Class = White Collar
+
+# ── Hero Armor ───────────────────────────────────────────────────────────────
+hero1Armor = Hard Hat
+hero2Armor = Scrubs
+hero3Armor = Blazer
+
+# ── Regular Enemy Names ──────────────────────────────────────────────────────
+smallEnemy1Name = Unpaid Intern
+smallEnemy2Name = Junior Associate
+mediumEnemy1Name = Middle Manager
+bigEnemy1Name = Corporate Drone
+
+# ── Boss Names ───────────────────────────────────────────────────────────────
+boss1Name = Work Boss
+boss2Name = AI Large Language Model
+boss3Name = Robotic AI Agent
+
+# ── Spell Names ──────────────────────────────────────────────────────────────
+spellFire             = Fire Alarm
+spellIce              = Hiring Freeze
+spellThunder          = Charging Cable
+spellQuake            = Earthquake Drill
+spellMend             = First Aid
+spellHeal             = Benefits Package
+spellEnchant          = Motivational Speech
+spellAwaken           = Wake-Up Call
+spellRevive           = Rehire
+spellHero1Special1    = Overtime Strike
+spellHero1Special2    = Paper Cuts
+spellHero1Special3    = Counter Offer
+spellHero1Special4    = Labor Union Rights
+spellHero2Special1    = Coffee Break
+spellHero2Special2    = Filing Frenzy
+spellHero2Special3    = Workers' Compensation
+spellHero2Special4    = Team Building Synergy
+spellHero3Special1    = Expense Report
+spellHero3Special2    = Quiet Quitting
+spellHero3Special3    = Hostile Takeover
+
+# ── Enemy Action Names — Regular Enemies ─────────────────────────────────────
+actionBasicAttack          = Attack
+actionSmallEnemy2Attack1   = Staple
+actionMediumEnemy1Attack1  = Micromanage
+actionBigEnemy1Attack1     = Mandatory Overtime
+actionBigEnemy1Attack2     = Budget Cut
+actionBigEnemy1Attack3     = Red Tape
+
+# ── Enemy Action Names — Boss 1 ───────────────────────────────────────────────
+actionBoss1MagicAttack1    = Performance Review
+actionBoss1MagicAttack2    = Staff Meeting
+actionBoss1PhysicalAttack1 = Write-Up
+actionBoss1SpecialAttack1  = Non-Compete Clause
+actionBoss1Drain           = Annual Evaluation
+
+# ── Enemy Action Names — Boss 2 ───────────────────────────────────────────────
+actionBoss2PhysicalAttack1 = Prompt Injection
+actionBoss2MagicAttack1    = Neural Surge
+actionBoss2SpecialAttack1  = Server Overload
+actionBoss2PhysicalAttack2 = Token Strike
+actionBoss2MagicAttack2    = Hallucination
+actionBoss2Drain           = Training Data Harvest
+
+# ── Enemy Action Names — Boss 3 ───────────────────────────────────────────────
+actionBoss3MagicAttack1    = Automation Wave
+actionBoss3MagicAttack2    = Mass Layoff
+actionBoss3PhysicalAttack1 = Robotic Strike
+actionBoss3MagicAttack3    = System Shutdown
+actionBoss3SpecialAttack1  = Process Lock
+actionBoss3MagicAttack4    = Malware Pulse
+actionBoss3Drain           = Soul Harvest
+
+# ── Place Names ──────────────────────────────────────────────────────────────
+placeTown     = Career Center
+placeDungeon  = Corporate Tower
+placeBootcamp = Job Training
+
+# ── Story Intro Lines (shown on World Map first visit) ───────────────────────
+# Edit these free-form — they are displayed exactly as written.
+introLine1 = Jobs across the land have been automated away...
+introLine2 = The Robotic AI Agent now controls the Corporate Tower.
+introLine3 = Three workers rise to reclaim their livelihoods.
+introLine4 = Visit Job Training and Career Center beforehand, to prepare for your quest into the Corporate Tower!
+
+# ── Dungeon Floor Names ──────────────────────────────────────────────────────
+floorB1Name = Corporate Tower - Lobby
+floorB2Name = Corporate Tower - Cubicle Farm
+floorB3Name = Corporate Tower - Management Floor
+floorB4Name = Work Boss Battle - Floor 4
+floorB5Name = AI Server Room - Floor 5
+floorB6Name = Final Battle - Floor 6
+
+# ── Item Names ────────────────────────────────────────────────────────────────
+itemPotion      = Energy Drink
+itemHiPotion    = Premium Coffee
+itemEther       = Lunch Break
+itemRevivalDrop = Severance Package
+itemAntidote    = HR Complaint
+
+# ── Hero Backstory Lore ───────────────────────────────────────────────────────
+heroLore1Location = factory districts
+heroLore2Org      = Caregivers Guild
+heroLore2Drink    = herbal tea
+
+# ── Ending Epilogue Theme Words ───────────────────────────────────────────────
+endingThemeLoot   = job offers
+endingThemePearls = paychecks
+endingThemeDrink  = Opportunity
+
+# ── Location Descriptions (World Map hover) ───────────────────────────────────
+descTown = A bustling career center. Visit the inn and shops. Save your game here.
