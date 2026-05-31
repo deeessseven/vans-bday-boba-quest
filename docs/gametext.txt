@@ -6,7 +6,7 @@
 # ─────────────────────────────────────────────────────────────────────────────
 
 # ── Game Title ───────────────────────────────────────────────────────────────
-gameTitle = {hero3}'s Bday Boba Quest
+gameTitle = Van's Bday Boba Quest
 
 # ── Hero Names ───────────────────────────────────────────────────────────────
 hero1Name = Tracy
@@ -150,13 +150,13 @@ hero3weapon3Desc = MAG +18  ·  Channels arcane energy
 # Placeholders: {hero1}/{hero2}/{hero3}=hero names, {boss1}/{boss2}/{boss3}=boss names, {town}/{dungeon}/{bootcamp}=place names, {theme1}/{theme2}/{theme3}=theme words.
 hero1Story = A battle-hardened fighter from the outer provinces of Air Asia. When {boss3} began assaulting {town}, {hero1} was the first to pick up a sword. "I've fought through worse," {hero1} says with a grim smile.
 hero2Story = A gifted healer trained under the Rick and Morty Universe. {hero2}'s restorative skills flow as warmly as {theme3}. {hero2} joins the quest to ensure no ally falls in the darkness that lies ahead within {dungeon}.
-hero3Story = Happy Bday {hero3}! {hero3} is a brilliant spellcaster who once adventured out of the Sonora Condos in search of {theme1}. {hero3}'s mastery of fire, ice, thunder, and earth spells has toppled empires. Now {hero3} channels all power to fight against evil in this world.
+hero3Story = HAPPY BIRTHDAY {hero3}! {hero3} is a brilliant spellcaster who once adventured out of the Sonora Condos in search of {theme1}. {hero3}'s mastery of fire, ice, thunder, and earth spells has toppled empires. Now {hero3} channels all power to fight against evil in this world.
 
 # ── Boss Intro Speeches ───────────────────────────────────────────────────────
 # Use \n for line breaks within a value.
-# boss1Intro = "Happy Birthday {hero3}! But I dislike those who think they can counter my attacks. Don't you dare!\n\nNow, I will drain your HP and MP every turn... HA HA HA!"
-# boss2Intro = "Hey Birthday Boy! You dare face me?! I dodge too quickly. You'll never hit me!\n\nAnd now, I will drain your HP and MP every turn... HO HO HO!"
-# boss3Intro = "It's your birthday and you made it this far, but do not think that you are immune to my attacks. I will defeat you!\n\nStarting now, I will drain your HP and MP every turn... HE HE HE!"
+boss1Intro = "HAPPY BIRTHDAY {hero3}! But I dislike those who think they can counter my attacks. Don't you dare!\n\nNow, I will drain your HP and MP every turn... HA HA HA!"
+boss2Intro = "Hey Birthday Boy! You dare face me?! I dodge too quickly. You'll never hit me!\n\nAnd now, I will drain your HP and MP every turn... HO HO HO!"
+boss3Intro = "It's your birthday and you made it this far, but do not think that you are immune to my attacks. I will defeat you!\n\nStarting now, I will drain your HP and MP every turn... HE HE HE!"
 
 # ── Theme Words ({theme1}/{theme2}/{theme3} placeholders) ────────────────────
 # Used in ending lines, hero stories, and world map intro.
@@ -172,7 +172,7 @@ endingLine1   = With a final cry, the {boss3} crumbled. Clumps of {theme1} scatt
 endingLine2   = {hero1}, {hero2}, and {hero3} stood victorious in the silence of {dungeon}.
 endingLine3   = The sacred {theme2} rained down from the sky, their warmth spreading across the land.
 endingLine4   = {town} erupted in celebration. Great {theme3} flowed freely.
-endingLine5   = The three heroes were never forgotten. Happy Birthday {hero3}!
+endingLine5   = The three heroes were never forgotten. HAPPY BIRTHDAY {hero3}!
 endingTheEnd  = ~ THE END ~
 endingReplay  = ✦  Tap to play again  ✦
 
