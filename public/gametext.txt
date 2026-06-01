@@ -150,7 +150,7 @@ hero3weapon3Desc = MAG +18  ·  Channels arcane energy
 # Placeholders: {hero1}/{hero2}/{hero3}=hero names, {boss1}/{boss2}/{boss3}=boss names, {town}/{dungeon}/{bootcamp}=place names, {theme1}/{theme2}/{theme3}=theme words.
 hero1Story = A battle-hardened fighter from the outer provinces of Air Asia. When {boss3} began assaulting {town}, {hero1} was the first to pick up a sword. "I've fought through worse," {hero1} says with a grim smile.
 hero2Story = A gifted healer trained under the Rick and Morty Universe. {hero2}'s restorative skills flow as warmly as {theme3}. {hero2} joins the quest to ensure no ally falls in the darkness that lies ahead within {dungeon}.
-hero3Story = HAPPY BIRTHDAY {hero3}! {hero3} is a brilliant spellcaster who once adventured out of the Sonora Condos in search of {theme1}. {hero3}'s mastery of fire, ice, thunder, and earth spells has toppled empires. Now {hero3} channels all power to fight against evil in this world.
+hero3Story = HAPPY BIRTHDAY {hero3}! {hero3} is a brilliant spellcaster who once adventured out of the Sonora Condos in search of {theme1}. {hero3}'s mastery of fire, ice, thunder, and earth spells has toppled empires. Now {hero3} channels all power to fight against evil in this world. Also, "Don't be a Bitch!" -Bday Boy {hero3}
 
 # ── Boss Intro Speeches ───────────────────────────────────────────────────────
 # Use \n for line breaks within a value.
