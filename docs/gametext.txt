@@ -149,7 +149,7 @@ hero3weapon3Desc = MAG +18  ·  Channels arcane energy
 # One paragraph per hero.
 # Placeholders: {hero1}/{hero2}/{hero3}=hero names, {boss1}/{boss2}/{boss3}=boss names, {town}/{dungeon}/{bootcamp}=place names, {theme1}/{theme2}/{theme3}=theme words.
 hero1Story = A battle-hardened fighter from the outer provinces of Air Asia. When {boss3} began assaulting {town}, {hero1} was the first to pick up a sword. "I've fought through worse," {hero1} says with a grim smile.
-hero2Story = A gifted healer trained under the Rick and Morty Universe. {hero2}'s restorative skills flow as warmly as {theme3}. {hero2} joins the quest to ensure no ally falls in the darkness that lies ahead within {dungeon}.
+hero2Story = A gifted healer trained in the Rick and Morty Universe. {hero2}'s restorative skills flow as warmly as {theme3}. {hero2} joins the quest to ensure no ally falls in the darkness that lies ahead within {dungeon}.
 hero3Story = HAPPY BIRTHDAY {hero3}! {hero3} is a brilliant spellcaster who once adventured out of the Sonora Condos in search of {theme1}. {hero3}'s mastery of fire, ice, thunder, and earth spells has toppled empires. Now {hero3} channels all power to fight against evil in this world. Also, "Don't be a Bitch!" says Bday Boy {hero3}.
 
 # ── Boss Intro Speeches ───────────────────────────────────────────────────────
@@ -168,11 +168,11 @@ theme3 = boba milk tea
 # Supports all placeholders: {hero1}/{hero2}/{hero3}, {boss1}/{boss2}/{boss3},
 #   {town}/{dungeon}/{bootcamp}, {theme1}/{theme2}/{theme3}
 endingVictory = VICTORY!
-endingLine1   = With a final cry, the {boss3} crumbled. Clumps of {theme1} scattered into light.
+endingLine1   = HAPPY BIRTHDAY {hero3}!   With a final cry, the {boss3} crumbled. Clumps of {theme1} scattered into light.
 endingLine2   = {hero1}, {hero2}, and {hero3} stood victorious in the silence of {dungeon}.
 endingLine3   = The sacred {theme2} rained down from the sky, their warmth spreading across the land.
 endingLine4   = {town} erupted in celebration. Great {theme3} flowed freely.
-endingLine5   = The three heroes were never forgotten. HAPPY BIRTHDAY {hero3}!
+endingLine5   = The three heroes were never forgotten. Happy Bday {hero3}!
 endingTheEnd  = ~ THE END ~
 endingReplay  = ✦  Tap to play again  ✦
 
